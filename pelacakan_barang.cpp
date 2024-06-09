@@ -88,7 +88,7 @@ vector<int> Graph::dijkstra(int src, int dest) {
     for (int v = dest; v != -1; v = parent[v])
         path.push_back(v);
     
-    reverse(path.begin(), path.end());
+    (path.begin(), path.end());
     return path;
 }
 
